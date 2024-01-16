@@ -1,0 +1,51 @@
+#title
+{
+    color: #304D30;
+    font-weight: lighter;
+    font-size: 4em;
+    font-family: 'Sevillana', cursive;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+@media(max-width:500px)
+{
+    #title
+{
+    color: #304D30;
+    font-weight: 800;
+    font-size: 2em;
+    font-family: 'Sevillana', cursive;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.smallt
+{
+    color: #638889;
+    font-size: 1em;
+    padding-left: 40px;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+}
+@media(min-width:700px)
+{
+    #title
+{
+    color: #304D30;
+    font-weight: lighter;
+    font-size: 2em;
+    font-family: 'Sevillana', cursive;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+}

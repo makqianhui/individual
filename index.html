@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B31WebAssignment2</title>
+<style>
+    .header
+    {
+        height: 250px;
+        width: 200%;
+        background-color: #EBD9B4;
+    }
+    .smallt
+    {
+        color: #638889;
+        font-size: 1em;
+        padding-left: 30px;
+        padding-top: 0%;
+        margin-top: 0%;
+
+    }
+    .divtitle
+    {
+        height: 800px;
+        width: 50%;
+    }
+    .divimg
+    {
+        height: 1px;
+        width: 4px;
+        position: absolute;
+        bottom: 450px;
+        left: 450px;
+    }
+    .aboutme
+    {
+        background-color: beige;
+        height: 350px;
+        margin-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }  
+    .topmenu
+    {
+        display: flex;
+        gap: 10px;
+        justify-content: start;
+    } 
+    ul
+    {
+        columns: 3;
+        padding-left: 0%;
+    }
+    li
+    {
+        list-style: none;
+    }
+    li a
+    {
+        background-color: white;
+    }
+    li a:hover
+    {
+        background-color: black;
+      
+    }
+    .contact
+    {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    h2{text-align: center;}
+    .gridcontact
+    {
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        grid-template-rows: repeat(1,2fr);
+        gap: 10px;
+    }
+</style>
+<link rel="stylesheet" href="./mystyle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Sevillana&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topmenu">
+        <img src="./house svg.png" alt=""><a href="./index.html"></a>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+           
+        </ul>
+    </div>
+    <div class="header">
+        <div class="divtitle">
+            <h1 id="title">Mak Qian Hui</h1>
+            <p class="smallt">If I could, I surely would</p>
+        </div>
+        <div class="divimg">
+            <img src="./face.jpg" alt="my picture">
+        </div>
+    </div>
+    <div class="aboutme">
+        <h2 style="text-align: center; color: #638889;">⟦ About Me ⟧</h2>   
+        <img src="./face.jpg" alt="my picture" style="height: 100px;width: 150px; float: left;padding-right: 3%;"> 
+        <p>
+            I am a good Computer Engineering, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.
+        </p>
+    </div>
+    <div class="contact">
+        <h2 style="color: #638889;">⌈ Contact Information ⌋</h2>
+        <div class="gridcontact">
+            <div>
+                <img style="height: 50px;width: 50px;" src="./address.png" alt="address">
+                <p>
+                    Current Address:
+                    <b>No.63 Tman Desa Lili,09100 Baling,Kedah</b>
+                </p>
+            </div>
+            <div>
+                <img style="height: 50px;width: 50px;" src="./gmail.png" alt="email">
+                <p>
+                    Email Address:
+                    <b>qhmakqianhui@gmail.com</b>
+                </p>
+            </div>
+            <div>
+                <img style="height: 50px;width: 50px;" src="./phone.png" alt="phone">
+                <p>
+                    Phone Number:
+                    <b>0195272722</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
